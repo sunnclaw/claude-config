@@ -1,0 +1,55 @@
+# Credentials - 安全敏感
+.credentials.json
+.env
+
+# 会话和历史
+sessions/
+history.jsonl
+*.jsonl
+
+# 插件（从 marketplace 重新下载）
+plugins/
+skills/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.log
+
+# IDE 和编辑器状态
+.ide/
+.vscode/
+.idea/
+
+# 调试文件
+debug/
+*.dump
+
+# 下载文件
+downloads/
+
+# 项目特定文件（应该单独管理）
+projects/
+
+# 遥测和使用数据
+telemetry/
+usage-data/
+stats*.json
+
+# Shell 快照
+shell-snapshots/
+
+# 备份
+*.backup
+backups/
+
+# MCP 和其他运行时生成
+mcp*/
+.serena/
+
+# 工作目录（如果有的话）
+.worktrees/
+
+# macOS 系统文件
+.DS_Store

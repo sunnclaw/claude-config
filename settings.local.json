@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git pull)",
+      "Bash(npm run build)",
+      "Bash(claude plugin marketplace add https://github.com/affaan-m/everything-claude-code)",
+      "Bash(claude plugin marketplace add \"D:/开发区域/everything-claude-code\")",
+      "mcp__MiniMax__understand_image",
+      "Bash(ls -la \"C:\\\\Users\\\\yangeng\\\\.claude\"\" 2>/dev/null || dir \"C:Usersyangeng.claude\"\")",
+      "Bash(curl *)",
+      "WebFetch(domain:github.com)",
+      "Bash(where uv:*)",
+      "WebFetch(domain:oraios.github.io)",
+      "Bash(claude mcp:*)",
+      "mcp__serena__list_dir",
+      "mcp__serena__get_current_config",
+      "mcp__serena__activate_project",
+      "mcp__serena__check_onboarding_performed",
+      "mcp__serena__onboarding",
+      "mcp__serena__find_symbol",
+      "Bash(python3:*)",
+      "Bash(claude:*)",
+      "Bash(sed:*)",
+      "Bash(node:*)",
+      "WebSearch"
+    ]
+  }
+}
